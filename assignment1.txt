@@ -1,0 +1,22 @@
+1. because binary is a machice language which has 0 and 1, 
+means it record the data in form of 0 and 1 as electric signal.
+
+2. Integrated Devleopment Environment
+
+3. A code editor offers significantly more functionality.
+
+4. create a source file and build software
+
+5.
+ a. C23 (N3096) / April 2, 2023
+ b. Dennis Ritchie
+ c. System Software is used for operating computer hardware whereas
+    Application software is used according to user applications.
+ d.
+   step1:divide decimal number by 2
+   step2:divide the obtained quotient
+         by 2, and note the remainder again.
+         until get zero as the quotient.   
+   step3:write last to first (reverse order)
+
+ 
