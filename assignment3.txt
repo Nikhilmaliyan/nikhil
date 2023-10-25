@@ -1,0 +1,27 @@
+1. Primitive data types in c language are those data typer that are
+   already defined in c landuage like int,char,float and double.
+
+2. Declaration statements can be written outside the function body.
+
+3. 4 bytes 
+
+4. Garbage value
+
+5. Both stores real constant but takes different memory size to store.
+   float takes 4 bytes and double takes 8 bytes because double takes
+   more bytes it provides more accuracy.
+
+6. American Standard for Code Infomation Interchange.
+
+7. Keyword are predefined words or reserved words like if,else,while etc.
+   where as function defines some code/statement that do some task.
+
+8. Modifiers are C keywords that modify the meaning of fundamental data
+   types. It indicates how much memory will be allocated to a variable.
+   Modifiers are prefixed with fundamental data types to adjust the memory
+   allocated for a variable.
+
+9. yes,you can assign a character constant in an int variable by using
+   ascii code that are from 0 to 255, each code define unique character.
+
+10.Yes
