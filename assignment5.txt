@@ -1,0 +1,169 @@
+1.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int a,b,c;
+  printf("Enter two numbers");
+  scanf("%d %d",&a,&b);
+  c=a+b;
+  printf("sum of %d and %d is %d",a,b,c);
+  getch();
+}
+
+2.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("Enter the Value of Radius\n");
+  float pie =3.14;
+  int radius;
+  scanf("%d",&radius);
+  printf("The radius of the circle is %d\n",radius);
+  float area =(pie*radius*radius);
+  getch();
+  printf("Area of circle is %f",area);
+}
+
+3.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("Enter the Value of Side\n");
+  float side;
+  scanf("%f",&side);
+  printf("Side of the cube is %f\n",side);
+  float volume =(side*side*side);
+  getch();
+  printf("Volume of cuboid is %f",volume);
+}
+
+4.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("Enter the Value of Principal\n");
+  float principal;
+  scanf("%f",&principal);
+
+  printf("Enter the Value of Rate\n");
+  float rate;
+  scanf("%f",&rate);
+
+  printf("Enter the Value of Time\n");
+  float time;
+  scanf("%f",&time);
+
+  float hundred=100;
+
+  printf("%f %f %f\n",principal,rate,time);
+  float SI=(principal*rate*time/hundred);
+  getch();
+  printf("Simple interest is %f",SI);
+}
+
+5.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("Enter the Value of Length of Rectangle\n");
+  float length;
+  scanf("%f",&length);
+
+  printf("Enter the Value of Breath of Rectangle\n");
+  float breath;
+  scanf("%f",&breath);
+
+  float Area=(length*breath);
+  getch();
+  printf("Area of Rectangle  is %f",Area);
+}
+
+6.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("enter three numbers\n");
+  int a,b,c;
+  scanf("%d %d %d",&a,&b,&c);
+
+  int n=3;
+  int sum=(a+b+c);
+  int Avg=(sum/n);
+  getch();
+  printf("Average of three numbers is \n%d",Avg);
+}
+
+7.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("enter number\n");
+  int a;
+  scanf("%d",&a);
+  int square=(a*a);
+  getch();
+  printf("Square of the numbers is \n%d",square);
+}
+
+8.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("enter character\n");
+  char a;
+  scanf("%c",&a);
+  getch();
+  printf("%d \n",a);
+}
+
+9.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("enter selling price\n");
+  float SP;
+  scanf("%f",&SP);
+
+  printf("enter cost price\n");
+  float CP;
+  scanf("%f",&CP);
+
+  float profit = (SP-CP);
+  printf("Profit is %f\n",profit);
+  float hundred = 100;
+  float A = (profit/CP);
+  float Percentage = (A*hundred);
+  printf("Profit Percentage is  %f \n",Percentage);
+  getch();
+}
+
+10.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  printf("enter selling price\n");
+  float SP;
+  scanf("%f",&SP);
+
+  printf("enter cost price\n");
+  float CP;
+  scanf("%f",&CP);
+
+  float profit = (SP-CP);
+  printf("Profit is %f\n",profit);
+  float hundred = 100;
+  float A = (profit/CP);
+  float Percentage = (A*hundred);
+  printf("Profit Percentage is  %f \n",Percentage);
+  getch();
+}
