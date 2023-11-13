@@ -1,0 +1,166 @@
+1.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a;
+char b;
+double c;
+int x,y,z;
+getch();
+x= sizeof (a);
+y= sizeof (b);
+z= sizeof (c);
+printf("%d\n%d\n%d",x,y,z);
+}
+
+2.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x,Last_digit;
+printf("Enter the number\n");
+scanf("%d",&x);
+Last_digit= x % 10;
+printf("Lsst digit is %d of %d",Last_digit,x);
+getch();
+}
+
+3.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int first_digit,x;
+printf("Enter the three digit number\n");
+scanf("%d",&x);
+first_digit=x/100;
+printf("first digit is %d",first_digit);
+getch();
+}
+
+4.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int mid_digit,x;
+printf("Enter the three digit number\n");
+scanf("%d",&x);
+mid_digit=x/10%10;
+printf("first digit is %d",mid_digit);
+getch();
+}
+
+5.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int varb1,varb2,z;
+printf("Enter var1\n");
+scanf("%d",&varb1);
+
+printf("Enter varb2\n");
+scanf("%d",&varb2);
+
+z = varb1;
+varb1 = varb2;
+varb2 = z;
+
+printf("varb1=%d \nvarb2=%d\n",varb1,varb2);
+getch();
+}
+
+6.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+printf("Enter two integer Values\n");
+scanf("%d %d",&a,&b);
+printf("unchanged \na = %d \nb = %d",a,b);
+
+a=a+b;
+printf("\n\nStep1\na = %d \nb = %d",a,b);
+
+b=a-b;
+printf("\n\nStep2\na = %d \nb = %d",a,b);
+
+a=a-b;
+printf("\n\nStep3\na = %d \nb = %d",a,b);
+
+getch();
+
+}
+
+7.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x,a;
+printf("Enter the Number:");
+scanf("%d",&x);
+printf("\nGiven Number is %d\n",x);
+a = x%10;
+x=x-a;
+printf("\nValue stored variable in x is %d",x);
+getch();
+}
+
+8.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x,a;
+printf("Enter the Number:");
+scanf("%d",&x);
+printf("\nGiven Number is %d\n",x);
+
+printf("\nEnter the one digit number:");
+scanf("%d",&a);
+
+printf("\nAppended Number is %d%d\r",x,a);
+getch();
+}
+
+9.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float INR,Dollar,Mult=76.23;
+printf("Enter amount in INR to be converted :");
+scanf("%f",&INR);
+
+Dollar=INR*Mult;
+printf("\n INR=%f\n",INR);
+
+printf("\nAmount in Dollar:%f",Dollar);
+getch();
+}
+
+10.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x,first,second,third;
+printf("Enter Three Digit Number:");
+scanf("%d",&x);
+
+first=x/100;
+
+second=x%100/10;
+
+third=x%10;
+
+x=third*100+first*10+second;
+printf("\nThree digit number rotated by one position towards the right:%d",x);
+
+getch();
+}
